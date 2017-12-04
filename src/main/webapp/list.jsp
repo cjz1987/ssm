@@ -14,12 +14,14 @@
 			<td>编号</td>
 			<td>姓名</td>
 			<td>密码</td>
+			<td>密钥</td>
 		</tr>
 		<c:forEach items="${lists}" var="user">
 			<tr>
 				<td><c:out value="${user.id}"></c:out></td>
 				<td><c:out value="${user.username}"></c:out></td>
 				<td><c:out value="${user.password}"></c:out></td>
+				<td><c:out value="${user.secret}"></c:out></td>
 			</tr>
 		</c:forEach>
 	</table>
