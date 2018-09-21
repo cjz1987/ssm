@@ -1,6 +1,6 @@
 package com.cjz.dao;
 
-import com.cjz.vo.User;
+import com.cjz.entities.User;
 
 import java.util.List;
 

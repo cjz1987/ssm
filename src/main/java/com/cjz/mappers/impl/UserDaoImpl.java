@@ -1,7 +1,7 @@
 package com.cjz.dao.impl;
 
 import com.cjz.dao.UserDao;
-import com.cjz.vo.User;
+import com.cjz.entities.User;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +19,6 @@ public class UserDaoImpl extends SqlSessionDaoSupport implements UserDao {
 
     @Override
     public List<User> list() {
-        return getSqlSession().selectList("com.cjz.vo.user.mapper.list");
+        return getSqlSession().selectList("com.cjz.entities.user.mapper.list");
     }
 }
