@@ -1,6 +1,6 @@
-package com.niydiy.dao;
+package com.cjz.dao;
 
-import com.niydiy.vo.User;
+import com.cjz.vo.User;
 
 import java.util.List;
 

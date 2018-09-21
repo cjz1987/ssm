@@ -1,7 +1,7 @@
-package com.niydiy.controller;
+package com.cjz.controller;
 
-import com.niydiy.service.UserService;
-import com.niydiy.vo.User;
+import com.cjz.service.UserService;
+import com.cjz.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

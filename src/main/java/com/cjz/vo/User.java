@@ -1,4 +1,4 @@
-package com.niydiy.vo;
+package com.cjz.vo;
 
 public class User {
 	private int id;

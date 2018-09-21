@@ -1,6 +1,6 @@
-package com.niydiy.service;
+package com.cjz.service;
 
-import com.niydiy.vo.User;
+import com.cjz.vo.User;
 
 import java.util.List;
 

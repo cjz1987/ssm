@@ -1,8 +1,8 @@
-package com.niydiy.service.impl;
+package com.cjz.service.impl;
 
-import com.niydiy.dao.UserDao;
-import com.niydiy.service.UserService;
-import com.niydiy.vo.User;
+import com.cjz.dao.UserDao;
+import com.cjz.service.UserService;
+import com.cjz.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
