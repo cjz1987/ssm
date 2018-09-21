@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="com.niydiy.vo" />
+        <package name="com.cjz.vo" />
     </typeAliases>
 
     <mappers>
-        <mapper resource="com/niydiy/vo/user.mapper.xml" />
+        <mapper resource="com/cjz/vo/user.mapper.xml" />
     </mappers>
 </configuration>

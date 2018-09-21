@@ -51,11 +51,11 @@
 
 	<aop:config>
 		<aop:pointcut id="pointcut"
-			expression="execution(* com.niydiy.service.impl.*.*(..))" />
+			expression="execution(* com.cjz.service.impl.*.*(..))" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut" />
 	</aop:config>
 
-	<context:component-scan base-package="com.niydiy" />
+	<context:component-scan base-package="com.cjz" />
 
     <!-- 返回JSON数据 -->
     <mvc:annotation-driven/>
