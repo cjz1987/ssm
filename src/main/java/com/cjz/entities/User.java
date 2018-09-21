@@ -1,4 +1,4 @@
-package com.cjz.vo;
+package com.cjz.entities;
 
 public class User {
 	private int id;

@@ -1,7 +1,7 @@
 package com.cjz.controller;
 
 import com.cjz.service.UserService;
-import com.cjz.vo.User;
+import com.cjz.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

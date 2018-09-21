@@ -1,8 +1,8 @@
 package com.cjz.service.impl;
 
-import com.cjz.dao.UserDao;
+import com.cjz.mappers.UserDao;
 import com.cjz.service.UserService;
-import com.cjz.vo.User;
+import com.cjz.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

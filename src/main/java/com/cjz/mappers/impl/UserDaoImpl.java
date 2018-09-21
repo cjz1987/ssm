@@ -1,6 +1,6 @@
-package com.cjz.dao.impl;
+package com.cjz.mappers.impl;
 
-import com.cjz.dao.UserDao;
+import com.cjz.mappers.UserDao;
 import com.cjz.entities.User;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;

@@ -1,4 +1,4 @@
-package com.cjz.dao;
+package com.cjz.mappers;
 
 import com.cjz.entities.User;
 

@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="com.cjz.vo" />
+        <package name="com.cjz.entities"/>
     </typeAliases>
 
     <mappers>
-        <mapper resource="com/cjz/vo/user.mapper.xml" />
+        <mapper url="classpath:mappers/user.mapper.xml"/>
     </mappers>
 </configuration>
